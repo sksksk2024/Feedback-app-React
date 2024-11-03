@@ -48,10 +48,10 @@ export const FeedbackProvider = ({ children }) => {
 
   // Set Item to be updated
   const editFeedback = (item) => {
-    setFeedbackEdit = {
+    setFeedbackEdit({
       item,
       edit: true
-    }
+    })
   }
 
   return (

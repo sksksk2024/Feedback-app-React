@@ -16,7 +16,7 @@ function FeedbackForm() {
     if ( feedbackEdit.edit === true ) {
       setBtnDisabled(false)
       setText(feedbackEdit.item.text)
-      setText(feedbackEdit.item.rating)
+      setRating(feedbackEdit.item.rating)
     }
   }, [feedbackEdit])
 
